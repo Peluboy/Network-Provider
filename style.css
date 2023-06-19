@@ -58,11 +58,12 @@ header > button {
   font-family: Poppins;
   font-weight: 700;
   font-size: 12px;
-  line-height: 20px;
   color: #ffffff;
+  outline: none;
+  border: none;
   background: #000000;
-  border-radius: 7px;
-  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  padding: 10px 25px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -70,6 +71,7 @@ header > button {
 header > button:hover {
   background-color: #ffffff;
   color: #000;
+  border: 1.5px solid black;
 }
 
 .container {
@@ -81,11 +83,15 @@ header > button:hover {
   width: 50%;
 }
 
+.logo {
+  width: 20%;
+}
+
 .leftSection > h1 {
   font-family: Poppins;
   font-weight: 700;
-  font-size: 65px;
-  line-height: 76px;
+  font-size: 55px;
+  line-height: 60px;
   color: #050505;
   width: 90%;
 }
@@ -93,10 +99,10 @@ header > button:hover {
 .leftSection > p {
   font-family: Poppins;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 25px;
   color: #050505;
-  width: 70%;
+  width: 80%;
 }
 
 .inputDiv {
@@ -106,13 +112,13 @@ header > button:hover {
   height: 75px;
   background: #ffffff;
   border: 1.5px solid #000000;
-  border-radius: 10px;
+  border-radius: 50px;
   position: relative;
   width: 80%;
 }
 
 .dropdownMain {
-  width: 20%;
+  width: 25%;
   height: 100%;
   border-radius: 10px 0 0 10px;
   border: none;
@@ -125,6 +131,7 @@ header > button:hover {
 
 .dropdownMain > img {
   border-radius: 50%;
+  width: 50px;
 }
 
 .dropdownMain > i {
@@ -135,7 +142,7 @@ header > button:hover {
 .inputDiv > input {
   width: 80%;
   height: 100%;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 50px 50px 0;
   font-family: Poppins;
   font-weight: 400;
   font-size: 25px;

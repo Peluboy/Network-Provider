@@ -1,56 +1,67 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./Assets/Fonts/fontawesome-free-6.1.1-web/css/all.min.css">
-    <title>Document</title>
-</head>
-<body>
- <header>
-            <h2>LOGONAME</h2>
-            <button>CONTACT US</button>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./Assets/Fonts/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+    <title>NetConnect</title>
+  </head>
+  <body>
+    <header>
+      <!-- <h2>NetConnect</h2> -->
+      <img src="./Assets/Images/netconnect-logo.png" alt="" class="logo" />
+      <button>CONTACT US</button>
+    </header>
 
-        <div class="container">
-            <div class="leftSection">
-                <h1>
-                    The Fastest Search Engine to ID your Network Provider.
-                </h1>
-                <p>Dest, autem idestrum in pa pa aspides dolorehenis molupta doluptum ipsam alictum dolupta arum a num dolupti usapienditam nessunt harum volut laboriam </p>
+    <div class="container">
+      <div class="leftSection">
+        <h1>Discover your Network Provider with Ease</h1>
+        <p>
+          Find Your Perfect Network Provider. Discover a world of seamless
+          communication and lightning-fast connections. Join us today and unlock
+          a network that empowers your digital lifestyle.
+        </p>
 
-                <div class="inputDiv">
-                    <div class="dropdownMain" id = "dropdownMain">
-                
-                        <img src="./Assets/Images/nigeria.svg" id="countryFlag" alt="">
-            
-                        <i class="fa-solid fa-angle-down" onclick="dropdownToggleHandler()" id="angleDown" ></i>
-                    </div>
-                    <input type="text" placeholder="+234 903 876 1241" id="phoneNumber" onkeyup = "phoneNumberChangeHandler()">
-                    <div class="networkProvider">
-                    </div>
+        <div class="inputDiv">
+          <div class="dropdownMain" id="dropdownMain">
+            <img src="./Assets/Images/nigeria.svg" id="countryFlag" alt="" />
 
-                    <div class="dropdown" id = "dropdown">
-                    </div>
-                    <span id="validationAlert">This number is not valid*</span>
-                </div>
+            <i
+              class="fa-solid fa-angle-down"
+              onclick="dropdownToggleHandler()"
+              id="angleDown"
+            ></i>
+          </div>
+          <input
+            type="text"
+            placeholder="+234 903 876 1241"
+            id="phoneNumber"
+            onkeyup="phoneNumberChangeHandler()"
+          />
+          <div class="networkProvider"></div>
 
-                <footer>
-                    Integrations
-                    <img src="./Assets/Images/network footer.svg" alt="">
-                </footer>
-            </div>
-            <div class="rightSection">
-                <img src="./Assets/Images/networkID.svg" alt="Id Image">
-            </div>
-            <div class="mobileFooter">
-                <p>Integrations</p>
-                <img src="./Assets/Images/network footer.svg" alt="">
-            </div>
+          <div class="dropdown" id="dropdown"></div>
+          <span id="validationAlert">This number is not valid</span>
+        </div>
+
+        <footer>
+          Integrations
+          <img src="./Assets/Images/network footer.svg" alt="" />
+        </footer>
+      </div>
+      <div class="rightSection">
+        <img src="./Assets/Images/networkID.svg" alt="Id Image" />
+      </div>
+      <div class="mobileFooter">
+        <p>Integrations</p>
+        <img src="./Assets/Images/network footer.svg" alt="" />
+      </div>
     </div>
-    
-    
-<script src="./app.js"></script>
-</body>
+
+    <script src="./app.js"></script>
+  </body>
 </html>
